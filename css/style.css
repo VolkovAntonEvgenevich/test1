@@ -1,0 +1,167 @@
+html,
+body {
+    font-family: 'Verdana', 'Tahoma', 'Arial';
+    background-color: #f7f0e6;
+    width: 75%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+h1 {
+    text-shadow: 5px 7px 3px #bcbdc1;
+    color: #54697d;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1em;
+    color: #54697d;
+    text-transform: uppercase;
+}
+
+a:link {
+    color: #009eff;
+}
+
+a:visited {
+    color: #009eff;
+}
+
+a:hover {
+    color: brown
+}
+
+.img11 {
+    border: 1px solid black; border-radius: 15%; box-shadow: 5px 7px 3px #bcbdc1;
+}
+
+
+.left {
+    float: left;
+    padding: 10px;
+
+}
+
+.right {
+    padding: 10px;
+}
+
+/*.t1 {
+    display: flex;
+} */
+
+.st1 {
+    font-size: 3rem;
+    color: #314153;
+    text-align: center;
+}
+
+.header {
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.nav {
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 5px 0 5px 0;
+}
+
+
+.hdiv {
+
+    border: 3px double black;
+    background-color: white;
+}
+
+.ndiv {
+
+    padding-left: 5%;
+    height: 21px;
+    
+}
+
+.m1 {
+    float: left;
+    width: 20%;
+}
+
+.main {
+
+    text-align: left;
+    margin-top: 5px;
+
+}
+
+.ttt {
+
+    padding: 2%;
+    height: auto;
+    min-height: 170px;
+
+}
+
+.footer {
+    text-align: left;
+    overflow: hidden;
+    margin-top: 7px;
+}
+
+.f1 {
+
+    padding: 5px;
+    height: auto;
+    min-height: 15px;
+    border: 3px double black;
+    background-color: #314153bd;
+    color: #f7f0e6;
+    text-align: center;
+}
+
+.imgs {
+    text-align: center;
+}
+
+ul.nav li {
+    display: inline;
+    line-height: normal;
+    letter-spacing: normal;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+
+.top {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    width: 65px;
+    position: fixed;
+    bottom: 60px;
+    right: 100px;
+    background-color: #fff;
+}
+
+dt {font-weight: 600;
+    color:indianred}
+
+@media (max-width: 600px) {
+    body {
+    width: 75%;
+    padding-left: 150px;
+    padding-right: 150px; }
+    .t1 {
+        display: block;
+    }
+}
+
+
+p {padding-bottom: 5px;}
+#select {height: 30px; width: 263px;padding: 5px;margin-bottom: 10px; border:white solid 1px; background-color: #c6ffc8;}
+#contact-form input {height: 20px; width: 250px;padding: 5px;margin-bottom: 10px; border:white solid 1px; background-color: #c6ffc8;}
+#contact-form > textarea {width: 400px; height: 150px;}
+#contact-form > div:nth-child(7) > input[type=button] {text-transform: uppercase; color:#1b331b; height: 45px; width: 170px; cursor: pointer; font-size: 21px; padding: 5px;}
